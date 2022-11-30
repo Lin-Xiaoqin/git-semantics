@@ -1,7 +1,7 @@
 # git-semantics
 
 #### 1.Branch Naming Rules:
-正規表現: ^(chore|docs|feat|fix|merge|perf|refact|refactor|style|test|wip)\/.*
+正規表現: ^(chore|docs|feat|fix|merge|perf|refact|refactor|style|test|wip)\/[a-zA-Z]{,10}-[0-9]{,6}.*$
 >example:
 >fix/SC_SAAS-XXXXXX日本語
 
